@@ -7,8 +7,6 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder(toBuilder = true)
-public class RegisterCheckResponse {
-
+public class RegisterCheckDTO {
     private String email;
-    private String otp;
 }
