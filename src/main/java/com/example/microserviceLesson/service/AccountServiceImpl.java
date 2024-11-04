@@ -65,4 +65,11 @@ public class AccountServiceImpl implements AccountService{
 
 
     }
+
+    @Override
+    public String testLoadBalancer() {
+
+//        Panggil service otp client
+        return otpClient.testLoadBalancer();
+    }
 }
